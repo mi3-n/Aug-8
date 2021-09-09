@@ -16,3 +16,25 @@
 */
 
 // SOLUTION:
+
+
+const Matt = 80;
+const Simon = 45;
+
+const lower = 51;
+
+if (Matt >= lower && Simon >= lower) {
+   console.log("both passed");
+} else if (Matt >= lower || Simon >= lower){
+   if (Matt > Simon){
+      console.log("Matt passed")
+   }else {
+      console.log("Simon passed")
+   }
+} else {
+   console.log("both failed")
+}
+
+
+
+
